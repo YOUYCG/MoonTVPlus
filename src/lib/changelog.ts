@@ -11,6 +11,20 @@ export interface ChangelogEntry {
 
 export const changelog: ChangelogEntry[] = [
   {
+    version: '201.0.0',
+    date: '2025-12-10',
+    added: [
+      '增加观影室，支持多人同步观影、实时聊天、语音通话等功能（实验性）',
+      '增加完整下载，通过合并m3u8片段实现完整视频下载'
+    ],
+    changed: [
+      '现在本地弹幕缓存会主动清除了'
+    ],
+    fixed: [
+		'修正tvbox订阅请求时机错误'
+	],
+  },
+  {
     version: '200.4.0',
     date: '2025-12-06',
     added: [
